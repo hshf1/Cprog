@@ -129,13 +129,18 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
   
   Bitte erst dann weiter machen, wenn alles zuvor funktioniert!
 
-### Let's Go
+### Gewinnspiel
 <details>
  <summary>Click to expand</summary>
  
- Du kannst nun 3 Widerstände für deinen gesuchten Widerstand benutzen und beliebig anordnen.
- Schriebe dein Programm so um, dass die gegebene E12 Reihe den gesucht Widerstand aus allen möglichen Kombinationen die beste Kombination berechnet.
+ Sie dürfen nun 3 Widerstände für Ihren gesuchten Widerstand benutzen und **beliebig** anordnen.
+ Schrieben Sie ihr Programm so um, dass die gegebene E12 Reihe den gesucht Widerstand aus allen möglichen Kombinationen die beste Kombination berechnet.
  Die Widerstandswerte und die verwendete Kombination sind am Ende auf dem Bildschirm auszugeben.
+
+ Testen Sie Ihr Programm mit einem Widerstand von 3542,58 Ohm, welcher wieder über die Tastatur eingegeben werden soll.
+ Wenn Sie glauben Sie haben den besten Widerstand gefunden, dann tragen Sie sich bitte in die Liste in dem folgenden Dokument ein.
+ 
+ https://docs.google.com/document/d/1sco9P2rn9MxPSt3fn9-zedgIXZ3zUD99GXpPp0ODjQs/edit
  
  </details>
   </details>
