@@ -1,89 +1,102 @@
 # Aufgabe 7
 
- Ihr sucht für eure Schaltung einen Widerstand. In eurem Baukasten ist aber nur die E12 Reihe von 1 bis 10.000 vorhanden.
- Entwickeln Sie ein Programm, das mit Hilfe der E12 Reihe den passenden Widerstand durch eine Parallelschaltung näherungsweise berechnet und
- angibt, welche Widerstände benötigt werden.
+
+Sie suchen für Ihr Projekt einen Widerstand. Sie haben den Baukasten der E12 Reihe mit den Widerständen von 1 bis 10.000.
+Leider ist kein Widerstand dabei, der nah genug an ihrem Wunschwert liegt. Sie möchten dem durch 2 parallel geschaltete Widerstände aus der E12 Reihe möglichst nahe kommen.  Entwickeln Sie ein Programm, das alle Kombinationen automatisch erstellt und das beste Widerstandspaar für Sie ermittelt und ausgibt.
+Ihr Programm soll die folgenden Punkte erfüllen:  
   
-  - [ ] E12 Reihe
-  - [ ] Parallelschaltung
-  - [ ] Widerstände finden
-  - [ ] Widerstände speichern
+  - [ ] Berechnen Sie die E12 Reihe bis 10.000 Ohm und geben Sie diese aus
+  - [ ] Erstellen Sie eine Funktion zur Berechnung von Parallelwiderständen
+    - [ ] Testen Sie Ihre Unterfunktion mit zwei Werten  
+  - [ ] Berechnen Sie jede mögliche Kombination von zwei parallel geschalteten Widerständen der E12-Reihe
+  - [ ] Speichern Sie die Kombination mit der kleinsten Differenz zum Wunschwiderstand
+  - [ ] Geben Sie die gefundene Kombination von Widerständen aus
+  - [ ] Ermitteln Sie die Abweichung in Ohm und Prozent und geben Sie diese aus
   
   
+# Info E12
+ 
+ Die E12-Reihe ist eine Widerstandsreihe, welche eine logarithmische Verteilung aufweist.
+ Sie hat pro Dekade 12 Widerstandswerte, die sich von Dekade zu Dekade lediglich um den Faktor 10 unterscheiden.
+ Wie sich die E12-Reihe berechnen lässt kann unter dem Wikipedia-Link nachgelesen werden
+ 
+ Wiki:
+ https://de.wikipedia.org/wiki/E-Reihe
+ 
+
   
-## Die E12 Reihe
+## Tip - E12 Reihe
 
 <details>
 <summary>Click to expand</summary>
-  
-Schreibe eine Unterfunktion, die einen Integerwert übergeben bekommt und den E12 Widerstand (als float) zurück gibt.
 
-Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten!
+Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
+Geben Sie die E12-Reihe von 1 bis 10.000 an
 
-  - [x] E12 Reihe
-  - [ ] Parallelschaltung
-  - [ ] Widerstände finden
-  - [ ] Widerstände speichern
+Es kann die Funktion pow() mit 10 hoch x/12 verwendet werden.
+pow() befindet sich in der math.h Bibliothek
 
-### Tip 1
-
-<details>
-<summary>Click to expand</summary>
-  
-   Benutze pow() mit 10 hoch x/12
-  </details>
  </details>
   
-  ## Parallelschaltung
+  ## Tip - Parallelschaltung
   
   <details>
-<summary>Click to expand</summary>
-  Schreibt eine zweites Unterprogramm, welches zwei Werte übergeben bekommt, aus diesen den Parallelwiderstand berechnet und das Ergebnis zurückgibt.
+  <summary>Click to expand</summary>
   
-  - [x] E12 Reihe
-  - [x] Parallelschaltung
-  - [ ] Widerständefinden
-  - [ ] Widerstände speichern
+  Die Parallelschaltung kann durch 
   
-  ### Tip 2
-
-<details>
-<summary>Click to expand</summary>
-  
-   Die Parallelschaltung kann als a*b/(a+b) realisiert werden
+  >R1*R2/(R1+R2)
+  >
+ 
+   realisiert werden.
   
   </details>
-   </details>
+
   
-  ## Widerstände finden
+ ## Tip - Wiederstände berechnen
   
   <details>
   <summary>Click to expand</summary>
-  
-  Der Benutzer soll vor der Ausführung aufgefordert Werden den gesuchten Widerstand anzugeben.
-  Schreiben Sie in der main einen Code, welcher für die E12 Reihe bis 10.000 Ohm den Parallelwiderstand jeder möglichen Kombination berechnet.
-  
-  
- - [x] E12 Reihe
- - [x] Parallelschaltung
- - [x] Widerstände finden
- - [ ] Widerstände speichern
 
-  ### Tip 3
+ Um alle Widerstandskombinationen zu brechnen kann eine doppelte for-Schleife verwendet werden 
   
-<details>
-  <summary>Click to expand</summary>
-   Benutze eine doppelte Schleife, welche die beiden Unterfunktionen aufruft.
+  Beispiel:
   
+  > int i=0;
+  > int k=0;
+  > int iZaehler1=0;aehler2=0;
+  > 
+  > // Doppelte for-Schleife mit den Schleifenvariablen i und k
+  > 
+  > for(i=0;i<4;i++){
+  > 
+  >   for(k=0;k<4;k++){
+  >   
+  >     iZaehler1++;
+  >     
+  >   }
+  >   
+  >   iZaehler2+=2;
+  >   
+  > }
+  > 
+  > 
+Die erste For-Schleife ist die äußere Schleife mit Schleifenvariable i. In dieser ist eine zweite Schleife mit der Schleifenvariable k enthalten.
+Zuerst wird die innere "k"-Schleife 4 mal durchlaufen, in diesem Beispiel wird iZaehler1 dabei jedes mal um 1 erhöht.
+Danach wird iZaehler2 um 2 erhöht. Anschließend ist ist die "i"-Schleife zu Ende und i wird um 1 erhöht, solange i kleiner 4 ist. Anschließend die "i"-Schleife erneut durchlaufen.
+Dies wird widerholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird. Die äußere Schleife wird verlassen. 
+
 </details>
-</details>
   
 
 
-## Widerstände speicher
+
+## Tip - Widerstände speichern
+
 
 <details>
  <summary>Click to expand</summary>
+
 
 Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn sie am dichtesten an dem gewünschten Wert sind.
 
@@ -126,4 +139,5 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
  
  </details>
   </details>
+
 
