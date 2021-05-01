@@ -134,6 +134,7 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
  <summary>Click to expand</summary>
  
  Sie dürfen nun 3 Widerstände für Ihren gesuchten Widerstand benutzen und **beliebig** anordnen.
+ 
  Schrieben Sie ihr Programm so um, dass die gegebene E12 Reihe den gesucht Widerstand aus allen möglichen Kombinationen die beste Kombination berechnet.
  Die Widerstandswerte und die verwendete Kombination sind am Ende auf dem Bildschirm auszugeben.
 
