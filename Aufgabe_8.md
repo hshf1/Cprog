@@ -132,11 +132,11 @@ Es werden 2 ineinander geschachtelte Schleifen verwendet.
    >   
    >   i:0    j: läuft von 1 bis 4. Falls f[j] kleiner als f[i] ist, dann tausche beide Werte
    >   
-   >   i=0  j=1;  10 5 2 1 7 -> f[1]=5  <   f[0]=10 -> tasuche: 5 und 10
+   >   i=0  j=1;  10 5 2 1 7 -> f[1]=5  <   f[0]=10 -> tausche: 5 und 10
    >   
-   >   i=0  j=2;  5 10 2 1 7 -> f[2]=2  <   f[0]=5 -> tasuche: 5 und 2
+   >   i=0  j=2;  5 10 2 1 7 -> f[2]=2  <   f[0]=5 -> tausche: 5 und 2
    >   
-   >   i=0  j=3;  2 10 5 1 7 -> f[3]=1  <   f[0]=2 -> tasuche: 2 und 1
+   >   i=0  j=3;  2 10 5 1 7 -> f[3]=1  <   f[0]=2 -> tausche: 2 und 1
    >   
    >   i=0  j=4;  1 10 5 2 7 -> f[4]=7  <   f[0]=1 _Nein_ -> nicht tauschen
    >   
@@ -147,9 +147,9 @@ Es werden 2 ineinander geschachtelte Schleifen verwendet.
    >   
    >   i:i    j: läuft von 2 bis 4. Falls f[j] kleiner als f[i] ist, dann tausche beide Werte
    >   
-   >   i=1  j=2;  1 10 5 2 7 -> f[2]=5  <   f[1]=10 -> tasuche: 5 und 10
+   >   i=1  j=2;  1 10 5 2 7 -> f[2]=5  <   f[1]=10 -> tausche: 5 und 10
    >   
-   >   i=1  j=3;  5 10 2 1 7 -> f[3]=2  <   f[1]=2 -> tasuche: 5 und 2
+   >   i=1  j=3;  5 10 2 1 7 -> f[3]=2  <   f[1]=2 -> tausche: 5 und 2
    >   
    >   i=1  j=4;  2 10 5 1 7 -> f[4]=7  <   f[1]=2 _Nein_ -> nicht tauschen
    >   
