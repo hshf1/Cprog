@@ -22,7 +22,7 @@ _erhält einen Zeiger auf die vorher eingegebene und korrigierte Zahl und gibt d
 
 Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
 
-## Zusatz
+### Zusatz
 <details>
 <summary>Click to expand</summary>
   
@@ -48,7 +48,7 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
   Testen Sie Ihre neue Funktion mit unterschiedlichen Tesfällen
   (z.B. -10001, -9999, -1, 1, 9999, 10001)
   
-  ## Zusatz
+  ### Zusatz
 <details>
 <summary>Click to expand</summary>
   
@@ -62,7 +62,7 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
   Erstellen Sie eine Schleife, die die Eingaben, Ausgabe und die Korrekturen solange widerholt, bis die Zahl _0_ eingegeben wird. Weisen Sie den Anwender auf dieses Abbruchkriterium hin.
   Das Programm wird nach Eingabe dieser Zahlbeendet.
   
-  ## Zusatz
+  ### Zusatz
 <details>
 <summary>Click to expand</summary>
   
