@@ -1,6 +1,6 @@
 # Aufgabe 9
 
-Erstellen und testen Sie ein Programm, das für eine belibige Ganzzahl die nächsthöhere gerade Zahl ausgibt. Falls die Zahl bereits gerade ist, ist die Zahl selbst auszugeben. 
+Erstellen und testen Sie ein Programm, das für eine beliebige Ganzzahl die nächsthöhere gerade Zahl ausgibt. Falls die Zahl bereits gerade ist, ist die Zahl selbst auszugeben. 
 Die Zahl ist durch den Benutzer einzugeben.
 
 ## Teil 1
@@ -35,7 +35,7 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
    <details>
 <summary>Click to expand</summary>
   
-  Erweitern Sie Ihr Programm um eine weiter Funktion, die überprüft, ob die eingegebene Zahl mindestens 5-stellig ist und diese bei Bedarf korrigiert.
+  Erweitern Sie Ihr Programm um eine weitere Funktion, die überprüft, ob die eingegebene Zahl mindestens 5-stellig ist und diese bei Bedarf korrigiert.
   
   ````korrigieren2```` soll nach der Funktion aus Teil 1 aufgerufen werden.
   Füllen Sie dazu die fehlenden Stellen **rechts** neben der Zahl mit 0 auf.
@@ -45,9 +45,9 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
   Ermitteln Sie mit ```strlen()``` die Anzahl der Stellen.
   Erweitern Sie mit ```strcat()``` den Text und wandeln Sie den String wieder in eine Zahl zurück(Je Zeichen über ASCII Tabelle oder per ````sscanf()````).
   
-  Ändern Sie die Eingaberoutine so ab, dass der Anwedner darauf hingewiesen wird, dass er keine _0_ eingeben darf.
+  Ändern Sie die Eingaberoutine so ab, dass der Anwender darauf hingewiesen wird, dass er keine _0_ eingeben darf.
   
-  Testen Sie Ihre neune Funktion mit zúnterschiedlichen Tesfällen
+  Testen Sie Ihre neue Funktion mit unterschiedlichen Tesfällen
   (z.B. -10001, -9999, -1, 1, 9999, 10001)
   
   ## Zusatz
