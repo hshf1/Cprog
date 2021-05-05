@@ -4,8 +4,7 @@ Erstellen und testen Sie ein Programm, das für eine beliebige Ganzzahl die näc
 Die Zahl ist durch den Benutzer einzugeben.
 
 ## Teil 1
-<details>
-<summary>Click to expand</summary>
+
   
   Erstellen Sie hierzu folgende Unterprogramme
   
@@ -29,11 +28,10 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
   
   Erstellen Sie das Struktogramm für Ihr Hauptprogramm und für die Unterfunktionen
   </details>
-  </details>
+
   
   ## Teil 2
-   <details>
-<summary>Click to expand</summary>
+
   
   Erweitern Sie Ihr Programm um eine weitere Funktion, die überprüft, ob die eingegebene Zahl mindestens 5-stellig ist und diese bei Bedarf korrigiert.
   
@@ -56,11 +54,10 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
   
   Erstellen Sie das Struktogramm für die Unterfunktionen ````korrigieren2````.
   </details>
-  </details>
+
   
    ## Teil 3
-   <details>
-<summary>Click to expand</summary>
+
   
   Erstellen Sie eine Schleife, die die Eingaben, Ausgabe und die Korrekturen solange widerholt, bis die Zahl _0_ eingegeben wird. Weisen Sie den Anwender auf dieses Abbruchkriterium hin.
   Das Programm wird nach Eingabe dieser Zahlbeendet.
@@ -71,4 +68,4 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
   
   Erstellen Sie das Struktogramm Ihres so modifizierten Programms.
   </details>
-  </details>
+ 
