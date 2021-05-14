@@ -15,7 +15,7 @@
 ## Zusatz
 <details>
  <summary>Klick zum öffnen</summary>
- Ertellen Sie zu jeder Teilaufgabe ein Struktotgramm
+ Erstellen Sie zu jeder Teilaufgabe ein Struktogramm
   
   </details>
   
@@ -30,8 +30,8 @@
  <details>
  <summary> Klick zu öffnen</summary>
  
- - (for-)Schleifen können auch runter Zählen
- - Ein zwischenspeicher oder eine zweite Zeichenkette könnte hilfreich sein
+ - (for-)Schleifen können auch runter zählen
+ - Ein Zwischenspeicher oder eine zweite Zeichenkette könnte hilfreich sein
  
  </details>
  
