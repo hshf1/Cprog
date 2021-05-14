@@ -41,6 +41,6 @@
  
  - Zeichenketten können miteinander verglichen werden
  - Ein zwischenspeicher oder eine zweite Zeichenkette könnte hilfreich sein
- - Wie abeitet eine doppelte for-Schleife ?
+ - Wie arbeitet eine doppelte for-Schleife ?
  
  </details>
