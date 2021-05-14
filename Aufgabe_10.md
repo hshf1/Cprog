@@ -26,7 +26,7 @@
  
  </details>
  
- ## Tip- Zeichnkette umdrehen
+ ## Tipp - Zeichnkette umdrehen
  <details>
  <summary> Klick zu öffnen</summary>
  
@@ -35,7 +35,7 @@
  
  </details>
  
- ## Tip- Vokale
+ ## Tipp - Vokale
  <details>
  <summary> Klick zu öffnen</summary>
  
