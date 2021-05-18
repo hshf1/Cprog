@@ -9,6 +9,22 @@ Lösen Sie dazu die folgenden Teilaufgaben:
   - Hinweis zur erlaubten Eingabe eines Satzes: Worte sind durch das Leerzeichen getrennt, der Satz endet immer mit einem "."
 - Geben Sie jedes Wort des Wortspeichers auf dem Bildschirm aus, falls der Satz weniger als 5 Wörter hat.
 
+
+# Info - calloc
+<details>
+  <summary> Klick zum öffnen </summary>
+  
+  calloc reserviert Speicherplatz in Ihrem Rechner, setzt den Inhalt, den calloc reserviert auf 0 und gibt einen Zeiger auf die erste Stelle des Speichers zurück. malloc reserviert Speicher und gibt einen Pointer auf die erste Stelle des Speichers zurück, ohne den Speicher vorher auf 0 zu setzten.
+  Verwendung von calloc:
+ - Vor dem Befehl sollte der Datentyp des Pointers stehen [(int*),(float*),...]
+ - In dem Befehl stehen dann die Anzahl der Elemente und die Größe
+    - calloc(5,4) -> Es werden fünf Adresse für den Datentyp int reserviert
+    - calloc(5, sizeof(int)) -> Gleich zum anderen Beispiel 
+  
+  https://www.tutorialspoint.com/c_standard_library/c_function_calloc.htm
+  
+  </details>
+
 # Zusatz 
 <details>
   <summary> Klick zum öffnen </summary>
