@@ -25,5 +25,5 @@ Nutzen Sie nun anstatt des Arrays eine dynamische Routingverwaltung.
 - Fragen Sie über die Tastatur ab, wie viele Knoten angelegt werden sollen.
 - Legen Sie die Konten über ```malloc```an und verknüprfen sie diese mit einander.
 - Geben Sie die Knoten nacheinander aus.
-- Fragen Sie ab, welcher Knoten eine Kollision hat und setzen Sie das Bit Kollision in allen Folgeknoten auf 1.
+- Fragen Sie ab, welcher Knoten eine Kollision hat und setzen Sie das Bit Kollision in allen Folgeknoten auf 1 oder 0.
 
