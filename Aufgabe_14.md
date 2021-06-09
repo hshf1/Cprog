@@ -27,3 +27,11 @@ Nutzen Sie nun anstatt des Arrays eine dynamische Routingverwaltung.
 - Geben Sie die Knoten nacheinander aus.
 - Fragen Sie ab, welcher Knoten eine Kollision hat und setzen Sie das Bit Kollision in allen Folgeknoten auf 1 oder 0.
 
+## Unterschied Array und malloc
+<details>
+    <summary>klicken zum öffnen</summary>   
+    
+!Verkettete Liste array)](https://user-images.githubusercontent.com/79829648/121307192-0a01b880-c900-11eb-83ad-e60871a270c1.png)
+
+![Verkettete Liste malloc](https://user-images.githubusercontent.com/79829648/121307188-08d08b80-c900-11eb-8f22-ea6858a9e2fe.png)
+    </details>
