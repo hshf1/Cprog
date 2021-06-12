@@ -22,6 +22,28 @@ _Erhält einen Zeiger auf die vorher eingegebene und korrigierte Zahl und gibt d
 
 Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
 
+## scanf()
+<details>
+  <summary> klicke zum öffnen </summary>
+  
+  ```scanf``` liest von der Tastatur ein und vergleicht mit der angegebenen Formatanweisung.
+  Bei dem bereits bekannten verfahren weisen sie mit dem "&" dem eingelesenen Werte eine Adresse zu in welche diese gespeichert werden soll.
+  ```
+  int a=0;
+  scanf("%d",&a);
+  ````
+  
+  Wenn mit pointern gearbeitet wird, dann wird bereites eine Adresse übergeben und das "&" wird weggelassen.
+  ``` 
+  void einlesen(*ptr)
+  {
+    printf("Bitte geben sie eine Zahle ein:\n");
+    scanf("%f",ptr);
+  }
+  ```
+  
+  </details>
+
 ## Beispiel Pointer
 <details>
 <summary>Click to expand</summary>
@@ -29,7 +51,8 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
   
 
   In dem folgenden Beispiel wird ein Pointer an ein Unterprogramm übergeben und in diesem Unterprogramm wird der eingelesen Wert direkt an die in der main deklarierten Variable gespeichert.
-  ![Screenshot (37)](https://user-images.githubusercontent.com/79829648/119266126-d2013280-bbe9-11eb-9bcf-8f5c2fb8c82f.png)
+  ![Screenshot (41)](https://user-images.githubusercontent.com/79829648/121770494-e477e780-cb69-11eb-82ef-566f3bb7d404.png)
+
 An der Ausgabe kann das nachvefolgt werden.
   
   ## Ausführlich
