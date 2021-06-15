@@ -30,8 +30,9 @@ Nutzen Sie nun anstatt des Arrays eine dynamische Routingverwaltung.
 ## Unterschied Array und malloc
 <details>
     <summary>klicken zum öffnen</summary>   
-    
-![Verkettete Liste array](https://user-images.githubusercontent.com/79829648/121307192-0a01b880-c900-11eb-83ad-e60871a270c1.png)
 
-
-    </details>
+## Verkettetet Liste im Array
+ ![Verkettete Liste array](https://user-images.githubusercontent.com/79829648/122029032-da095800-cdcc-11eb-8f4b-3b579497aec2.png)
+## Verkettetet Liste mit malloc    
+![Verkettete Liste malloc](https://user-images.githubusercontent.com/79829648/122029044-dc6bb200-cdcc-11eb-82b6-c09dcbf9a39f.png)
+  </details>
