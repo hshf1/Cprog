@@ -4,35 +4,45 @@ Das zu entwickelnde Programm soll den Mittelwert von drei eingegebenen reellen Z
 Nach der Ausgabe der Aufgabenstellung sind die drei Zahlen anzufordern.
 Geben sie den berechneten Mittelwert im Standardtformat (3 Nachkommastellen) aus.
 
+- [ ] Zahlen anfordern
 - [ ] Mittelwert berechnen
-- [ ] Zahlen anfordern
-- [ ] Ausgabe formatieren
-
-! Diese Gliderung ist nur eine Hilfestellung sie können das Programm auch so schreiben, das direkt alle Punkte erfüllt sind !
-
-## Schritt 1
-
-Entwickeln Sie ein Programm, das den Mittelwert von drei reellen Zahlen berechnet und auf dem Bildschirm ausgibt.
-
-- [x] Mittelwert berechnen
-- [ ] Zahlen anfordern
 - [ ] Ausgabe formatieren
 
 
-## Schritt 2
+## Tipp - Grundbausteine
+<details>
+<summary>Klicken zum öffnen</summary>
 
-Das Programm soll nun so erweitert werden, dass der Benutzer nach der Ausgabe der Aufgabenstellung drei reelle Zahlen eingibt.
-Aus diesen Zahlen soll wieder der Mittelwert berechnet und ausgegeben werden.
+Für das Programm werden vier Variablen benötigt, die vor der zuweisung deklariert werden müssen. Wählen Sie die passenden Datentypen!
+  Es wird nur die standard Bibliothek benötigt.
 
-- [x] Mittelwert berechnen
-- [x] Zahlen anfordern
-- [ ] Ausgabe formatieren
+</details>
 
+## Tipp - Einlesen
+<details>
+<summary>Klicken zum öffnen</summary>
 
-## Schritt 3
+  Um den Variablen die Werte zu zuordnen kann ```scanf()``` verwendet werden. 
 
-Die Ausgabe des Mittelwertes soll nun so verändert werden, das auf dem Bildschirm nur drei Nachkommastellen asugegeben werden.
+</details>
 
-- [x] Mittelwert berechnen
-- [x] Zahlen anfordern
-- [x] Ausgabe formatieren
+## Tipp - Berechnung
+<details>
+<summary>Klicken zum öffnen</summary>
+Der Mittelwert ist das Ergebnis aus der Summe der Einzelwerte, geteilt durch die Anzahl der verwendeten Werte. 
+
+</details>
+
+## Tipp - Formatierung
+<details>
+<summary>Klicken zum öffnen</summary>
+  Bei der Ausgabe über ```printf()``` kann aus der kombination von einem Punkt "." mit einer Zahl festgelegt werden wie viel Kommastellen auf dem Bildschirm angezeigt werden.
+  Diese Kombination wird zwischen das Prozentzeichen und dem Zeichen für den Datentypen gesetzte.
+  
+  ```C
+  float f = 3.141596;
+  
+  printf("Pi ist: %.4f", f); // Die Ausgabe ist -> Pi ist: 3.1415
+  ``` 
+  
+  </details>
