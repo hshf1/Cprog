@@ -3,25 +3,36 @@
 Nach der Eingabe einer ganzen Zahl ist zu überprüfen, ob dieser Zahl kleiner 100 ist.
 Trifft das zu, ist die Zahl um 10 zu erhöhen, bis sie die Schleife verlassen werden kann.
 Überprüfen sie den Schleifendurchlauf durch Ausgabe des aktuellen Wertes im Schleifenkörper.
-Tsten Sie das Programm mit unterschiedlichen Werten.
+Testen Sie das Programm mit unterschiedlichen Werten.
 
 - [ ] Zahl überprüfen
 - [ ] Schleife
 
 
-## Schritt 1
+## Tipp - Überprüfen
+<details>
+<summary>Klicken zum öffnen</summary>
 
-Schreiben sie ein Programm, dass den Benutzer auffordert eine ganz Zahl einzugeben.
-Danach soll überprüft werden ob diese Zahl kleiner 100 ist.
+Zur Überprüfung eignen sich ```if``` und ```if else``` Anweisungen gut.
 
-- [x] Zahl überprüfen
-- [ ] Schleife
+</details>
 
-## Schritt 2
+## Tipp - Schleife
+<details>
+<summary>Klicken zum öffnen</summary>
 
+In der Schleife soll die vom Benutzer eingegebene Zahl um 10 erhöht werden, bis diese mindestens den Wert 100 erreicht hat.
+  
+</details>
 Ist die Zahl kleiner 100 soll diese in einer Schleife um 10 erhöht werden, bis sie größer 100 ist.
 Nach jedem Schleifendurchlauf soll der aktuelle Wert ausgegeben werden.
 Ist die Zahl bereits größer 100 ist die Zahl wieder auszugeben.
 
-- [x] Zahl überprüfen
-- [x] Schleife
+
+## Zusatz
+<details>
+<summary>Klicken zum öffnen</summary>
+
+Erweitern Sie ihr Programm so, dass bei eingabe einer Zahl größere 100 eine Fehlermeldung erscheint und das Programm widerholt wird.
+
+</details>
