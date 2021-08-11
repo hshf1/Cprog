@@ -1,3 +1,4 @@
+
 # Aufgabe 14 - Einfach verkettete Listen
 
 Internetkommunikation erfolgt über zentrale Router als Punkt zu Punkt Verbindung. Sendet ein User eine Anfrage an eine Webseite, wird das TCP/IP Telegramm von seinem Rechner an seinen Provider gesendet, der sendet es weiter an einen Internetknoten und der sendet es weiter an den nächsten Knoten, bis es an den Hoster der Webseite zugestellt wird. Der Weg von der Quelle bis zum Ziel ist nicht immer derselbe, sondern wird dynamisch bestimmt.
@@ -32,9 +33,9 @@ Nutzen Sie nun anstatt des Arrays eine dynamische Routingverwaltung.
     <summary>klicken zum öffnen</summary>   
 
 ## Verkettetet Liste im Array
- ![Verkettete Liste Array](https://user-images.githubusercontent.com/79829648/123070303-ecf6da80-d413-11eb-83fc-92e783d46cdb.png)
+![Verkettete Liste Array](https://user-images.githubusercontent.com/79829648/129008005-7d9453a9-bbb6-4264-a29e-406273545332.png)
 
-## Verkettetet Liste mit malloc    
-![Verkettete Liste malloc](https://user-images.githubusercontent.com/79829648/123070311-ef593480-d413-11eb-9194-1b11ac60f5de.png)
+## Verkettetet Liste mit malloc   
+![Verkettete Liste malloc](https://user-images.githubusercontent.com/79829648/129008068-352088d7-16e5-4d4e-a9da-85d00f0be5a4.png)
 
   </details>
