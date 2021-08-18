@@ -5,7 +5,7 @@ Sie müssen daher nicht für jeden Teil eine neue Datei anlegen, sondern erweite
 
 ## Teil 1
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum öffnen</summary>
 
 Erstellen Sie ein Feld von 10 int-Werten und Initialisieren Sie das Feld mit beliebigen Daten.
 Berechnen Sie die Summe aller Feldelemente und geben Sie die Summe aus.
@@ -66,6 +66,39 @@ Die Unterfunktionen sollten diese Form aufweisen:
 > int maximum (int [10], int*)
 > 
 
+  ## Tipp - Unterfunktion
+<details>
+<summary>Klicken zum öffnen</summary>
+  
+Unterfunktionen sind immer dann sehr hilfreich, wenn Sie eine Aufgabe erfüllen, welche mehrfach benötigt wird. (z.B. in Schleifen)
+  Überlegen Sie sich, was Sie für das Unterprogramm benötigen. Welchen Rückgabe-Typ soll die Funktion haben, welche und wie viele Parameter möchten Sie der Unterfunktion übergeben.
+  Es kann nur ein Wert zurückgegeben werden!
+  
+  ```C
+  int berechneSumme(int iZahl1, int iZahl2){ 
+    /* Die Unterfunktion ist vom Typen Int und bekommt zwei Integer Werte übergeben.
+    Diese heißen für die Unterfunktion iZahl1 und iZahl2
+    Im Hauptprogramm können die Werte andere Namen haben(s.u.)! */
+    int iBums;                // Nur für die Unterfunktion wird eine weitere Variable mit dem Namen iBums angelegt
+    iBums = iZahl1 + iZahl2;  // In iBums wird das Ergebnis aus iZahl1 und iZahl2 gespeichert
+    return iBums;             // Die Zahl aus iBums ist der Rückgabewert
+  }
+  
+  int main (){
+  
+  int iZahlA = 5;
+  int iZahlB = 12;
+  int iZahlC;
+  
+  iZahlC = berechneSumme(iZahlA, iZahlB);
+  /*iZahlC wird der Rückgabewert aus der Unterfunktion berechneSumme() zugewiesen.
+    iZahlA aus dem Hauptprogramm heißt für die Unterfunktion iZahl1 und iZahlB ist iZahl2.
+    Wichtig ist, dass die Datentypen übereinstimmen sonst kommt es zu Fehlern.*/
+  
+  }
+  ```
+
+</details>
 </details>
 
 
@@ -73,14 +106,14 @@ Die Unterfunktionen sollten diese Form aufweisen:
 
 <details>
 <summary>Click to expand</summary>
-  Erweitern Sie nun Ihr Programm um die aufgelistetn Aufgaben.
+  Erweitern Sie nun Ihr Programm um die aufgelisteten Aufgaben.
   Diese sollen ebenfalls als Unterfunktionen in Ihrem Programm stehen.
   
 
 ### Feld einlesen
   
   Der Benutzer soll ein beliebiges 10er Feld (Integer)
-  (siehe Aufgabe 8, Teil 1) über die Tastatur eingeben können.
+  (Siehe Aufgabe 8, Teil 1) über die Tastatur eingeben können.
   
   > void feld_einlesen(int [10])
   > 
@@ -93,7 +126,7 @@ Entwickeln Sie ein Unterprogramm, um ein 10er Feld am Bildschirm anzeigen zu kö
 >void feld_ausgeben (int [10])
 >
 
-### Feld berechenen
+### Feld berechnen
 
 Berechnen Sie für das vom Benutzer eingegebene Feld die Summe, den Mittelwert, das größte Feldelement und zeigen Sie das Feld an.
 Benutzen Sie dafür die Unterprogramme aus 8.2
@@ -163,7 +196,7 @@ Es werden 2 ineinander geschachtelte Schleifen verwendet.
  Er veranschaulicht allerdings den oben genannten Algorithmus.
  
  
-Die Variable m ist 1 also werden die Werte 5 und 6 verglichen. Da 5 kleiner ist als 6 ist die if-Bedingung erfüllt und die beiden Zahlen werden getauscht
+Die Variable m ist 1, also werden die Werte 5 und 6 verglichen. Da 5 kleiner als 6 ist die if-Bedingung erfüllt und die beiden Zahlen werden getauscht.
 
   ![Screenshot (22)](https://user-images.githubusercontent.com/79829648/116119758-0fdc6b00-a6bf-11eb-85ed-0fe9caceb7be.png)
   ![Screenshot (23)](https://user-images.githubusercontent.com/79829648/116119966-4f0abc00-a6bf-11eb-8eb5-73b9500347f6.png)
@@ -172,7 +205,7 @@ Die Variable m ist 1 also werden die Werte 5 und 6 verglichen. Da 5 kleiner ist 
  Das nächste mal werden die 3 und die 5 getauscht.
  ![Screenshot (28)](https://user-images.githubusercontent.com/79829648/116120153-85e0d200-a6bf-11eb-9367-c5016afdbce9.png)
  
- Nachdem alle Zahlen für die k-Schleife durchlaufen wurden wird das aktuelle Feld ausgegeben und die Schleife wiederholt sich jetzt mit i=1.
+ Nachdem alle Zahlen für die k-Schleife durchlaufen wurden, wird das aktuelle Feld ausgegeben und die Schleife wiederholt sich jetzt mit i=1.
  ![Screenshot (30)](https://user-images.githubusercontent.com/79829648/116120490-dfe19780-a6bf-11eb-97f9-cfcee8e6c36d.png)
 
 
