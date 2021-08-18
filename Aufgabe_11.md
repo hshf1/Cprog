@@ -29,6 +29,6 @@ Lösen Sie dazu die folgenden Teilaufgaben:
 <details>
   <summary> Klick zum öffnen </summary>
     
-Erstellen Sie für Ihre Lösung ein Strucktogramm.
+Erstellen Sie für Ihre Lösung ein Struktogramm.
 
 </details>
