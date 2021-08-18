@@ -9,7 +9,7 @@
  - Ermitteln Sie die Anzahl der Großbuchstaben und geben Sie die Anzahl aus.
  - Ermitteln Sie die Anzahl der Vokale in der Zeichenkette und geben Sie die Anzahl aus.
  - Geben Sie die Zeichenkette nur mit Konsonanten aus, Vokale sind ersatzlos gestrichen.
- - Geben Sie die Länge der so entstandenen Zeichenkette und die prozentuale Kompressionsrate aus
+ - Geben Sie die Länge der so entstandenen Zeichenkette und die prozentuale Kompressionsrate aus.
 
 
 ## Zusatz
@@ -34,7 +34,7 @@
  
 - gets(zeichenkette)
 - fgets(zeichenkette, zeichenanzahl, stdin)
-  - stdin steht für die Tastatur, mit fgets kann auch von anderen Quellen gelesen werden
+  - stdin steht für die Tastatur mit fgets kann auch von anderen Quellen gelesen werden
 - scanf("%<anzahl>s", zeichenkette)
   -  https://www.tutorialspoint.com/c_standard_library/c_function_scanf.htm
  
@@ -62,7 +62,7 @@
  <summary> Klick zu öffnen</summary>
  
  - Zeichenketten können miteinander verglichen werden
- - Ein zwischenspeicher oder eine zweite Zeichenkette könnte hilfreich sein
+ - Ein Zwischenspeicher oder eine zweite Zeichenkette könnte hilfreich sein
  - Wie arbeitet eine doppelte for-Schleife ?
  
  </details>
