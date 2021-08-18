@@ -21,7 +21,7 @@ Geben Sie in einer Schleife die Seriennummer und den Typ der ersten 5 Einträge 
 
 ## Teil 2
 
-Erstellen Sie nun ein Programm zur **dynamischen Lagerverwaltung'', mit dem Sie an beliebige Stellen Fahrzeuge einlagern und auslagern könne.
+Erstellen Sie nun ein Programm zur **dynamischen Lagerverwaltung**, mit dem Sie an beliebige Stellen Fahrzeuge einlagern und auslagern könne.
 Gehen Sie hierzu folgendermaßen vor:
 
 - Erstellen Sie ein neues _Hauptprogramm_. Initialisieren Sie alle Einträge Ihres Feldes ```lager``` mit folgenden _default_-Werten:
