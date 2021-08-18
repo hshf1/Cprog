@@ -2,7 +2,7 @@
 
 
 Sie suchen für Ihr Projekt einen Widerstand. Sie haben den Baukasten der E12 Reihe mit den Widerständen von 1 bis 10.000.
-Leider ist kein Widerstand dabei, der nah genug an ihrem Wunschwert liegt. Sie möchten dem durch 2 parallel geschaltete Widerstände aus der E12 Reihe möglichst nahe kommen.  Entwickeln Sie ein Programm, das alle Kombinationen automatisch erstellt und das beste Widerstandspaar für Sie ermittelt und ausgibt.
+Leider ist kein Widerstand dabei, der nah genug an ihrem Wunschwert liegt. Sie möchten dem durch 2 parallel geschaltete Widerstände aus der E12 Reihe möglichst nahekommen.  Entwickeln Sie ein Programm, das alle Kombinationen automatisch erstellt und das beste Widerstandspaar für Sie ermittelt und ausgibt.
 Ihr Programm soll die folgenden Punkte erfüllen:  
   
   - [ ] Berechnen Sie die E12 Reihe bis 10.000 Ohm und geben Sie diese aus
@@ -18,27 +18,27 @@ Ihr Programm soll die folgenden Punkte erfüllen:
  
  Die E12-Reihe ist eine Widerstandsreihe, welche eine logarithmische Verteilung aufweist.
  Sie hat pro Dekade 12 Widerstandswerte, die sich von Dekade zu Dekade lediglich um den Faktor 10 unterscheiden.
- Wie sich die E12-Reihe berechnen lässt kann unter dem Wikipedia-Link nachgelesen werden
+ Wie sich die E12-Reihe berechnen lässt, kann unter dem Wikipedia-Link nachgelesen werden.
  
  Wiki:
  https://de.wikipedia.org/wiki/E-Reihe
  
 
   
-## Tip - E12 Reihe
+## Tipp - E12 Reihe
 
 <details>
 <summary>Click to expand</summary>
 
-Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten !
-Geben Sie die E12-Reihe von 1 bis 10.000 an
+Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten!
+Geben Sie die E12-Reihe von 1 bis 10.000 an.
 
 Es kann die Funktion pow() mit 10 hoch x/12 verwendet werden.
 pow() befindet sich in der math.h Bibliothek
 
  </details>
   
-  ## Tip - Parallelschaltung
+  ## Tipp - Parallelschaltung
   
   <details>
   <summary>Click to expand</summary>
@@ -53,12 +53,12 @@ pow() befindet sich in der math.h Bibliothek
   </details>
 
   
- ## Tip - Wiederstände berechnen
+ ## Tipp - Wiederstände berechnen
   
   <details>
   <summary>Click to expand</summary>
 
- Um alle Widerstandskombinationen zu brechnen kann eine doppelte for-Schleife verwendet werden 
+ Um alle Widerstandskombinationen zu berechnen, kann eine doppelte for-Schleife verwendet werden 
   
   Beispiel:
   
@@ -82,43 +82,25 @@ pow() befindet sich in der math.h Bibliothek
   > 
   > 
 Die erste For-Schleife ist die äußere Schleife mit Schleifenvariable i. In dieser ist eine zweite Schleife mit der Schleifenvariable k enthalten.
-Zuerst wird die innere "k"-Schleife 4 mal durchlaufen, in diesem Beispiel wird iZaehler1 dabei jedes mal um 1 erhöht.
-Danach wird iZaehler2 um 2 erhöht. Anschließend ist ist die "i"-Schleife zu Ende und i wird um 1 erhöht, solange i kleiner 4 ist. Anschließend die "i"-Schleife erneut durchlaufen.
-Dies wird widerholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird. Die äußere Schleife wird verlassen. 
+Zuerst wird die innere "k"-Schleife 4 Mal durchlaufen, in diesem Beispiel wird iZaehler1 dabei jedes Mal um 1 erhöht.
+Danach wird iZaehler2 um 2 erhöht. Anschließend ist die "i"-Schleife zu Ende und i wird um 1 erhöht, solange i kleiner 4 ist. Anschließend die "i"-Schleife erneut durchlaufen.
+Dies wird wiederholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird. Die äußere Schleife wird verlassen. 
 
 </details>
   
 
 
 
-## Tip - Widerstände speichern
+## Tipp - Widerstände speichern
 
 
 <details>
  <summary>Click to expand</summary>
-
-
-Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn sie am dichtesten an dem gewünschten Wert sind.
-
-
- - [x] E12 Reihe
- - [x] Parallelschaltung
- - [x] Widerstände finden
- - [x] Widerstände speicher
-
-
   
-  ### Tip 4
-  
-  <details>
- <summary>Click to expand</summary>
-  
-   Berechne die Differenz zwischen dem letzten und aktuellen Widerstand im Vergleich zum gewünschten Widerstand, speichere den besseren.
-   Speicher den Zähler und übergib ihn am Ende wieder der passenden Unterfunktion, um den ermittelten Widerstand zu bestimmen.
-   Überprüfe, ob die Differenz negativ ist.
-    
-  
-   </details>
+   Berechnen Sie die Differenz zwischen dem letzten und aktuellen Widerstand im Vergleich zum gewünschten Widerstand, speichern Sie den besseren.
+   Ist der passendste Widerstand gefunden, kann der Zähler gespeichert und als Rückgabewert übergeben werden.
+   Sie können auch den Wert des Widerstandes übergeben und nicht die Potenz. Das kann variieren, je nachdem, wie Sie die Schleife aufgebaut haben.
+   Überprüfen Sie auch, ob die Differenz negativ ist. (20 Ohm kleiner als der gesuchte Widerstand ist besser als 50 Ohm größer!)
 
   </details>
 
@@ -129,7 +111,7 @@ Erweiter dein Programm so, dass die Widerstandswerte gespeichert werden, wenn si
   
   Bitte erst dann weiter machen, wenn alles zuvor funktioniert!
 
-### Gewinnspiel
+### Gewinnspiel(Sose2021)
 <details>
  <summary>Click to expand</summary>
  
