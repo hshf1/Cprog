@@ -4,7 +4,6 @@ Erstellen und testen Sie ein Programm, das für eine beliebige Ganzzahl die näc
 Die Zahl ist durch den Benutzer einzugeben.
 
 ## Teil 1
-
   
   Erstellen Sie hierzu folgende Unterprogramme
   
@@ -22,19 +21,19 @@ _Erhält einen Zeiger auf die vorher eingegebene und korrigierte Zahl und gibt d
 
 Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
 
-## scanf()
+## Tipp - scanf()
 <details>
   <summary> klicke zum öffnen </summary>
   
   ```scanf``` liest von der Tastatur ein und vergleicht mit der angegebenen Formatanweisung.
-  Bei dem bereits bekannten verfahren weisen sie mit dem "&" dem eingelesenen Werte eine Adresse zu in welche diese gespeichert werden soll.
-  ```
+  Bei dem bereits bekannten verfahren weisen sie mit dem "&" dem eingelesenen Werte eine Adresse zu, in welche diese gespeichert werden soll.
+  ```C
   int a=0;
   scanf("%d",&a);
   ````
   
-  Wenn mit pointern gearbeitet wird, dann wird bereites eine Adresse übergeben und das "&" wird weggelassen.
-  ``` 
+  Wenn mit pointern gearbeitet wird, dann wird bereits eine Adresse übergeben und das "&" wird weggelassen.
+  ``` C
   void einlesen(*ptr)
   {
     printf("Bitte geben sie eine Zahle ein:\n");
@@ -46,7 +45,7 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
 
 ## Beispiel Pointer
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum öffnen</summary>
   
   
 
@@ -57,7 +56,7 @@ An der Ausgabe kann das nachvefolgt werden.
   
   ## Ausführlich
   <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum öffnen</summary>
   Sie werden einen Programmcode sehen, welcher ähnlich dem zu dieser Aufgabe ist.
   Der Code, den Sie auf den Bildern sehen, bearbeitet die folgenden Punkte:
   
@@ -87,7 +86,7 @@ Im ersten Punkt mit "Buchstabe einlesen", ist noch eine Fehlerabfrage eingebaut,
 
 ## Zusatz
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum öffnen</summary>
   
   Erstellen Sie das Struktogramm für Ihr Hauptprogramm und für die Unterfunktionen
   </details>
@@ -96,7 +95,7 @@ Im ersten Punkt mit "Buchstabe einlesen", ist noch eine Fehlerabfrage eingebaut,
   ## Teil 2
 
   
-  Erweitern Sie Ihr Programm um eine weiter Funktion, die überprüft, ob die eingegebene Zahl mindestens 5-stellig ist und diese bei Bedarf korrigiert.
+  Erweitern Sie Ihr Programm um eine weitere Funktion, die überprüft, ob die eingegebene Zahl mindestens 5-stellig ist und diese bei Bedarf korrigiert.
   
-  _korrigieren2_ soll nach der Funktion aus Teil 1 aufgerufen werden.
+  ```korrigieren2``` soll nach der Funktion aus Teil 1 aufgerufen werden.
   Füllen Sie dazu die fehlenden Stellen **rechts** neben der Zahl mit 0 auf.
