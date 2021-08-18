@@ -1,7 +1,7 @@
 # Aufgabe 1
 
 Das zu entwickelnde Programm soll die Summe von zwei ganzen Zahlen berechnen.
-Nach der Ausgabe der Ausfgabenstellung sind die beiden Werte anzufordern.
+Nach der Ausgabe der Aufgabenstellung sind die beiden Werte anzufordern.
 Die berechnete Summe ist zwei Zeilen tiefer auszugeben.
 
 - [ ] Werte einlesen
@@ -30,7 +30,7 @@ Mit ```scanf()``` können Werte von der Tastatur eingelesen und in Variablen ges
 <details>
 <summary>Klicken zum öffnen</summary>
 
-  An Stelle von festen Werten können auch Rechenoperationen mit Variablen durchgeführt werden.
+  Anstelle von festen Werten können auch Rechenoperationen mit Variablen durchgeführt werden.
   
   ```C
   int a=2;
