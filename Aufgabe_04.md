@@ -1,7 +1,7 @@
 # Aufgabe 4
 
 Erstellen Sie ein Programm, das die ASCII-Zeihen NR. 48 bis 57 als Zahlenwert und als Zeichen ausgibt.
-Nutzen sie hierfür eine Zälschleife.
+Nutzen sie hierfür eine Zählschleife.
 
 - [ ] Zählschleife
 - [ ] Ausgabe von Zahl und Zeichen
