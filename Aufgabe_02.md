@@ -2,7 +2,7 @@
 
 Das zu entwickelnde Programm soll den Mittelwert von drei eingegebenen reellen Zahlen berechnen.
 Nach der Ausgabe der Aufgabenstellung sind die drei Zahlen anzufordern.
-Geben sie den berechneten Mittelwert im Standardtformat (3 Nachkommastellen) aus.
+Geben sie den berechneten Mittelwert im Standardformat (3 Nachkommastellen) aus.
 
 - [ ] Zahlen anfordern
 - [ ] Mittelwert berechnen
@@ -13,7 +13,7 @@ Geben sie den berechneten Mittelwert im Standardtformat (3 Nachkommastellen) aus
 <details>
 <summary>Klicken zum öffnen</summary>
 
-Für das Programm werden vier Variablen benötigt, die vor der zuweisung deklariert werden müssen. Wählen Sie die passenden Datentypen!
+Für das Programm werden vier Variablen benötigt, die vor der Zuweisung deklariert werden müssen. Wählen Sie die passenden Datentypen!
   Es wird nur die standard Bibliothek benötigt.
 
 </details>
@@ -22,7 +22,7 @@ Für das Programm werden vier Variablen benötigt, die vor der zuweisung deklari
 <details>
 <summary>Klicken zum öffnen</summary>
 
-  Um den Variablen die Werte zu zuordnen kann ```scanf()``` verwendet werden. 
+  Um den Variablen die Werte zu zuordnen, kann ```scanf()``` verwendet werden. 
 
 </details>
 
@@ -36,7 +36,7 @@ Der Mittelwert ist das Ergebnis aus der Summe der Einzelwerte, geteilt durch die
 ## Tipp - Formatierung
 <details>
 <summary>Klicken zum öffnen</summary>
-  Bei der Ausgabe über ```printf()``` kann aus der kombination von einem Punkt "." mit einer Zahl festgelegt werden wie viel Kommastellen auf dem Bildschirm angezeigt werden.
+  Bei der Ausgabe über ```printf()``` kann aus der Kombination von einem Punkt "." mit einer Zahl festgelegt werden wie viel Kommastellen auf dem Bildschirm angezeigt werden.
   Diese Kombination wird zwischen das Prozentzeichen und dem Zeichen für den Datentypen gesetzte.
   
   ```C
