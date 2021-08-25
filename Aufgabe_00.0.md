@@ -3,7 +3,7 @@
 
 Herzlich Willkommen zu Ihrer ersten Programmieraufgabe in C!
 
-Ihr erstes Programm soll die folgenden Daten auf dem Bildschirm ausgeben.
+Ihr erstes Programm soll die folgenden Daten auf dem Bildschirm ausgeben:
 - [ ] Ihren Namen, Studiengang und E-Mail
 - [ ] Summe von 2 Zahlen ausgeben
 - [ ] Kapital berechnen 180€ zu 2 %
@@ -15,7 +15,7 @@ Diese Ausgaben sollen alle in einer main() Funktion stehen und nacheinander auf 
 
 ### Tipp - Wie schreibe ich ein Programm
 <details>
-<summary> Klicken zum öffnen</summary>
+<summary> Klicken zum Öffnen</summary>
 
 Jedes Programm enthält neben der Hauptfunktion die benötigten Bibliotheken.
 Diese werden ganz zu Beginn mithilfe des ```include``` Befehls angegeben.
@@ -26,7 +26,7 @@ In dieser sollen die oben genannten Aufgaben bearbeitet werden.
 
 ### Tipp - Ausgabe auf dem Bildschirm mit ```printf()```  
 <details>
-<summary> Klicken zum öffnen</summary>
+<summary> Klicken zum Öffnen</summary>
   
 Mit dem ```printf``` Befehl können Zahlen, Zeichen und Zeichenketten (z.B. Wörter) auf dem Bildschirm ausgegeben werden.
 Im einfachsten Fall sieht ```printf``` wie folgt aus:
@@ -34,16 +34,16 @@ Im einfachsten Fall sieht ```printf``` wie folgt aus:
   printf("<Text>");
 ```
   Alles was zwischen den Anführungszeichen steht wird von ```printf```auf dem Bildschirm ausgegeben.
-  Die "<>" werden demnach mit ausgegeben und sind nicht relevant für den Syntax!
+  Die "<>" werden demnach mit ausgegeben und sind nicht relevant für die Syntax!
 </details> 
 
 
 ### Tipp - Rechnen
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
 
 In C können die bekannten Rechenoperatoren wie gewohnt angewandt werden.
-  Auch hier gilt Punkt vor Strich sonst Klammer setzten!
+  Auch hier gilt Punkt vor Strich, sonst Klammer setzten!
   
   Achten Sie dabei auf den richtigen Datentypen!
   
@@ -52,23 +52,23 @@ In C können die bekannten Rechenoperatoren wie gewohnt angewandt werden.
 
 ### Tipp - Kapital
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
   Sie haben ein Kapital von 180€, das jährlich mit 2 % verzinst wird.
-  Berechnen sie den Gewinn nach einem Jahr und geben sie diesen auf dem Bildschirm aus.
+  Berechnen Sie den Gewinn nach einem Jahr und geben Sie diesen auf dem Bildschirm aus.
 </details>
 
 ### Tipp - Bit-Operatoren
 <details>
-<summary>Klicken zum öffnen</summary>
-  Legen Sie einen Integer mit dem Werte 24 an.
+<summary>Klicken zum Öffnen</summary>
+  Legen Sie einen Integer mit dem Wert 24 an.
   Dieser Integer soll durch Bit-Operatoren geviertelt werden.
   Geben Sie beide Zahlen auf dem Bildschirm aus.
   
   #### Hilfe
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
 
-Überlegen sie sich, wie die 24 und das Ergebnis 24/4 in Binär aussieht.  
+Überlegen Sie sich, wie die 24 und das Ergebnis 24/4 in Binär aussehen.  
   Was passiert, wenn eine Zahl um ein Bit nach rechts verschoben wird?
 
 </details>
@@ -76,10 +76,10 @@ In C können die bekannten Rechenoperatoren wie gewohnt angewandt werden.
 
   ### Tipp - Ordung/Zeilenverschub
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
 
 Damit die Ausgaben nicht alle in derselben Zeile stehen, kann ein Zeilenverschub mit "\n" erzeugt werden.
-Der Zeilenverschub wird mit in ```printf()``` geschrieben. Dieser beinhaltet dann neben dem Text der ausgegeben werden soll, noch das "\n".
+Der Zeilenverschub wird mit in ```printf()``` geschrieben. Dieser beinhaltet dann neben dem Text, der ausgegeben werden soll, noch das "\n".
   Das Zeichen kann vor oder nach dem Text stehen. Wichtig ist, dass es wie der Text zwischen den Anführungszeichen steht.
  ```C
   printf("<Text>\n"); //Zeilenverschub nach der Ausgabe
@@ -97,11 +97,11 @@ Der Zeilenverschub wird mit in ```printf()``` geschrieben. Dieser beinhaltet dan
   
 ## Zusatz - Kapital
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
   
   
 
-Erzeugen sie durch die Wahl entsprechender Datentypen einen Rechenfehler. 
+Erzeugen Sie durch die Wahl entsprechender Datentypen einen Rechenfehler. 
 
 </details>
 
