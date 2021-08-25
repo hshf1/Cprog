@@ -9,13 +9,13 @@ Die berechnete Summe ist zwei Zeilen tiefer auszugeben.
 
 ## Tipp - Werte einlesen mit ```scanf()```
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
   
 Mit ```scanf()``` können Werte von der Tastatur eingelesen und in Variablen gespeichert werden. ```scanf()```ist vom Aufbau ähnlich zu ```printf()```.
   
  ### Aufbau scanf() und printf()
   <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
     In der Variable i ist zu Beginn der Buchstabe B gespeichert.
     
 ```C
@@ -28,7 +28,7 @@ Mit ```scanf()``` können Werte von der Tastatur eingelesen und in Variablen ges
   
 ## Tipp - Rechnen mit Variablen
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
 
   Anstelle von festen Werten können auch Rechenoperationen mit Variablen durchgeführt werden.
   
