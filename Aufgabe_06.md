@@ -17,6 +17,7 @@ Benutzen Sie den Zeilenverschub nach jeder Erhöhung, um nicht alle Werte in ein
 # Level 2
 <details>
 <summary>Klicken zum Öffnen</summary>
+  WS 14
   
   Im Mathematik-Lehrbuch für die vierten Klassen an niedersächsischen Grundschulen ist folgende Zahlenfolge aufgeführt, die durch Ihr C-Programm mit geeigneten arithmetischen Operationen (Multiplikation, Subtraktion) bis zur 12. Zahl vervollständigt werden soll:
   
