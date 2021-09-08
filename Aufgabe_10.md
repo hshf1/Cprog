@@ -71,6 +71,7 @@
  # Level 2
   <details>
  <summary>Klicken zum Öffnen</summary>
+   WS 14
    
    Bei der Suche nach einer Fahrtverbindung hat der Reisende eine Zieladresse in Deutschland angegeben, die aus der Postleitzahl, dem Ort, der Straße und der Hausnummer besteht. Unglücklicherweise hat er die übliche Reihenfolge der Adressenangaben geändert, sodass z.B. nicht garantiert ist, dass die Hausnummer unmittelbar nach dem Straßennamen steht, oder dass die PLZ am Anfang der Zeichenkette zu finden ist.
 Der Reisende kann z.B. statt der Zieladresse
