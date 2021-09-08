@@ -12,3 +12,18 @@ Benutzen Sie den Zeilenverschub nach jeder Erhöhung, um nicht alle Werte in ein
 ```printf()``` kann auch in einer Schleife aufgerufen werden!
 
 </details>
+
+
+# Level 2
+<details>
+<summary>Klicken zum Öffnen</summary>
+  
+  Im Mathematik-Lehrbuch für die vierten Klassen an niedersächsischen Grundschulen ist folgende Zahlenfolge aufgeführt, die durch Ihr C-Programm mit geeigneten arithmetischen Operationen (Multiplikation, Subtraktion) bis zur 12. Zahl vervollständigt werden soll:
+  
+  13 | 5 | 15 | 7 | 21 | … … … … … … | 247
+  
+Geben Sie das vollständige Listing Ihres Programms an. Lösen Sie dazu folgende Teilaufgaben:
+  
+a) Entwickeln Sie einen Algorithmus, mit dem die angegebene Zahlenfolge erzeugt und ausgegeben wird. Erstellen Sie hierzu ein Struktogramm.
+    
+b) Setzen Sie in Ihrem Hauptprogramm den Algorithmus aus Teilaufgabe a) um.
