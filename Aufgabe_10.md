@@ -67,3 +67,33 @@
  
  </details>
 </details>
+
+ # Level 2
+  <details>
+ <summary>Klicken zum Öffnen</summary>
+   
+   Bei der Suche nach einer Fahrtverbindung hat der Reisende eine Zieladresse in Deutschland angegeben, die aus der Postleitzahl, dem Ort, der Straße und der Hausnummer besteht. Unglücklicherweise hat er die übliche Reihenfolge der Adressenangaben geändert, sodass z.B. nicht garantiert ist, dass die Hausnummer unmittelbar nach dem Straßennamen steht, oder dass die PLZ am Anfang der Zeichenkette zu finden ist.
+Der Reisende kann z.B. statt der Zieladresse
+   
+ „30173 Hannover, Hildesheimer Straße 140.“
+   
+eine folgende Adresse eintippen:
+   
+ „140 Hannover 30173 Hildesheimer Straße.“
+   
+Schreiben Sie ein ablauffähiges C-Programm, das die Adresse analysiert und sowohl die Postleitzahl als  auch die Hausnummer in der angegebenen Adresse ermittelt.
+   
+a) Fordern Sie den Benutzer auf, eine Adresse einzugeben. Lesen Sie die Adresseeingabe von der
+Tastatur ein und speichern Sie die Adresseingabe in einer passenden Datenstruktur.
+Überprüfen Sie mit Ihrem Programm, ob die Zeichenkette nicht leer ist oder ob die Zeichenkette
+nicht mit einem "." endet.
+   
+b) Zerlegen Sie die Adresse in die einzelnen Adressbestandteile. Gehen Sie davon aus, dass die Adressbestandsteile durch ein Leerzeichen getrennt sind und mit einem Punkt enden. Speichern
+Sie die einzelnen Adressbestandteile in einer passenden Datenstruktur.
+   
+c) Analysieren Sie für jeden Adressbestandteil, ob es sich um die Postleitzahl oder die Hausnummer handelt. Finden Sie geeignete Kriterien für diese Analyse.
+   
+d) Falls Ihr Programm eine Postleitzahl oder eine Hausnummer identifizieren konnte, sollen diese
+auf dem Bildschirm ausgegeben werden.
+Geben Sie den vollständigen Quell-Code Ihres Programmes an.
+   </details>
