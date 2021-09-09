@@ -128,4 +128,85 @@ Dies wird wiederholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird
  </details>
   </details>
 
+# Level 2 ~ Freiwillig
+<details>
+ <summary>Klicken zum Öffnen</summary>
+  SS 21 (5)
+  
+  Sie haben in ihrer Firma ein Lager mit 7 Stangen unterschiedlicher Länge. Ein Kunde möchte 2 Stangen kaufen, welche in ihrer Gesamtlänge (also beide Längen addiert) möglichst auf eine von ihm angegebene Wunschlänge kommt. Ziel ist ein Programm, welches Ihnen die bestmögliche Kombination von Stangen ermittelt und ausgibt, wie nah sie damit an die angegebene Wunschlänge kommen. Befolgen Sie die Anweisungen in den Kommentaren im Programm. Überall wo "....." steht müssen Sie etwas programmieren. Sie können das ganze zur besseren übersicht auch  einfach in VSC kopieren.
+  
+  Teil a)
+  ``` C 
+  //Geben Sie nötige #include Anweisungen an
+  .....
+  
+  /* Deklaration eines Lagers als ein globales Feld(Array) mit 7 Werten mit dem Namen "aLager".
+  Dieses Lager enthält Stangen mit folgenden Längen in Metern: 1,1   2,2   3,3   4,4   5,5   6,6   7,7
+  initialisieren Sie ihr Array entsprechend.  */
+  .....
+  
+  int main(){
+  // Deklarieren und Initialisieren Sie passende Variablen, wenn Sie diese brauchen.
+  .....
+  
+  printf("GebenSiediegesuchteWunschlaengevon2Stangenein:");
+  //Lesen Sie diese (Fließkommazahl) über die Tastatur in eine Variable ein.
+  .....
+  
+  /*Berechnen Sie mit einer For-Schleife die gesamte Länge des Stangenmaterials und geben Sie diese
+  auf dem Bildschirm mit 2 Nachkommastellen aus.(Aufsummierung aller Elemente) */
+  .....
+  
+  /*Nutzen Sie die vorliegende doppelte for-Schleife, um jede mögliche Kombination von zwei Stangen
+  aus den Lagern einmal aufzuaddieren und diese mit der Wunschlänge zu vergleichen. Suchen Sie nach
+  der besten Kombination und speichern Sie Position der am besten passenden Stangenelemente und die
+  gefundene Länge dieser Lösung ab.  */
+  
+  
+  int x, y;       //Schleifenvariablen für die Lagerplätzeint
+  xBest = -1;     //Speichern Sie hier Ihre gefundenen besten Lagerplaetzeint
+  yBest = -1;
+  float fDiffBest = 1000.0; //Speichern Sie in dieser Variable den kleinsten
+                            //gefundenen Abstand zwischen Wunschlänge und Länge der beiden Stangen
+  
+  //Deklarieren Sie weitere Variablen, wenn Sie diese brauchen
+  
+  for (x = 0; x < 7; x++){
+                    for (y = 0; y < 7; y++){
+  //Programmieren Sie einen Schutz, derverhindert, dass zwei gleiche Lagerplätze verglichen werden (x=y)
+  .....
+  
+  //Bilden Sie die Summe der beiden Lagerplätze
+  .....
+  
+  //Bilden Sie die Differenz von Wunschlänge und gefundener Länge
+  .....
+  
+  //Berücksichtigen sie, dass die Differenz auch negativ werden kann
+  .....
+  
+  //Speichern Sie die Kombination ab, wenn Siedie bisher beste ist
+  .....
+  
+  }
+ }
+  //Tragen Sie die Variablen richtig in die printf-Funktionein
+  printf("Stange aus Lager %d und Stange aus Lager %d kommen mit Gesamtlaenge %f am naehesten an den Wunschwert heran.\n",.....
+  
 
+  //Geben Sie den Abstand zur Wunschlänge auf dem Bildschirm aus
+  .....
+}
+```
+  
+  
+  
+Teil b)
+  Schreiben Sie eine Funktion ```zeigeLagerdaten```, welche als Übergabewert das Feld bekommt. Geben Sie die Lagerplätze 1-7 auf dem Bildschirm aus. Berechnen Sie auch die durchschnittliche Stangenlänge(Durchschnitt aller Längen im Lager)und geben Sie diese ebenfalls aus. Diesen Wert soll die Funktion auch zurückgeben. 
+  
+  
+  
+  Teil c)
+  Schreiben Sie eine Funktion tauscheLagerPlatz. Diese erhält das Feld und zwei Lagerplätze als Übergabewert. Die Stangenlängen an diesen zwei Plätzen sind zu tauschen. (Im Array an den übergebenen Positionen die Werte tauschen
+  
+   </details>
