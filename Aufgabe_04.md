@@ -36,3 +36,11 @@ Mit dem passenden Datentypen reicht eine Variable für Zahl und Zeichen bei der 
 </details>
 
 
+Level 2 ~ Freiwillig
+<details>
+<summary>Klicken zum Öffnen</summary>
+  
+  1) Erweitern Sie ihr Programm so, dass auch die Buchstaben nach dem selben prinzip ausgegeben werden.
+  
+  2) Versuchen Sie das Programm so umzuschreiben, dass die Ausgabe mit dem Buchstaben "Z" beginnt und mit "A"aufhört.
+  </details>
