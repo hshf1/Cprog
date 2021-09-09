@@ -33,3 +33,40 @@ Lösen Sie dazu die folgenden Teilaufgaben:
 Erstellen Sie für Ihre Lösung ein Struktogramm.
 
 </details>
+
+# Level 2 ~ Freiwillig
+
+<details>
+  <summary>Klicken zum Öffnen</summary>
+  
+  WS 15
+  
+Um einen String zu verschlüsseln, wird folgender Algorithmus verwendet:
+  • Der String wird in Gruppen von vier Zeichen aufgeteilt.
+  • In jeder Gruppe werden die Zeichen auf den Positionen eins und drei, und zwei und vier jeweils ausgetauscht.
+  • Bei drei Zeichen wird das Zeichen auf der Position zwei nicht berührt.
+  • Die letzte Gruppe, die weniger als drei Zeichen beinhaltet, wird nicht modifiziert.
+  
+Beispielweise wird die Zeichenkette „Hallo Welt!“ in folgende 4er-Gruppen aufgeteilt:
+  {H, a, l, l}, {o, , W, e}, {l, t, !}.
+  
+Durch den Austausch werden folgenden 4er-Gruppen gebildet.
+  {l, l, H, a}, {W, e, o, }, {!, t, l}
+  
+Diese 4er-Gruppen werden als verschlüsselter String zusammengefasst:
+  „llHaWeo !tl“
+  
+Bearbeiten Sie die folgenden Teilaufgaben. Bitte beachten Sie dabei, dass alle Aufgabenteile
+unabhängig voneinander gelöst werden können! 
+  
+  a) Erstellen Sie ein Struktogramm, das den oben erläuterten Algorithmuns beschreibt.
+  
+  b) Programmieren Sie eine Funktion void verschluessele_string (char str[]), die den oben geschilderten Algorithmus realisiert.
+  
+  c) In der Hauptfunktion implementieren Sie folgende Schritte:
+    • Lesen Sie einen String von der Tastatur ein
+    • Geben Sie den String zur Kontrolle auf dem Bildschirm aus
+    • Verschlüsseln Sie den angegebenen String basierend auf der Funktion verschluessele_string ()
+    • Geben Sie den resultierenden verschlüsselten String zur Kontrolle auf dem Bildschirm aus
+
+</details>
