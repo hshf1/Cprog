@@ -26,3 +26,12 @@ Das Kapital lässt sich am einfachsten mit einer Potenzfunktion berechnen. Diese
   
   https://github.com/hshf1/cprog/blob/main/Aufgabe_02.md
   </details>
+
+# Level 2 ~ Freiwillig
+<details>
+<summary>Klicken zum Öffnen</summary>
+  
+Erweitern Sie das Programm so, dass immer nach 2 Jahren der Zinssatz sich um 5% verringert
+
+
+</details>
