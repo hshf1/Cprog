@@ -211,3 +211,114 @@ Die Variable m ist 1, also werden die Werte 5 und 6 verglichen. Da 5 kleiner als
 
   </details>
   </details>
+  
+  # Level 2 ~ Freiwillig
+  <details>
+ <summary> Klicken zum öffnen </summary>
+ SS 18 [5]
+     
+ Gegeben ist das folgende Programm:  
+      <details>
+ <summary> Klicken zum Programmvorlage zu öffnen </summary>
+        
+ ```C
+#include <stdio.h>
+    
+    
+ int main(){
+    
+  int init;
+  char reihenfolge;
+  short anz;
+  // Feld array mit 10 Feldern vom Typ short definieren und jedes Element
+  // mit 0 initialisieren
+    
+    
+  puts("Bitte L\x84nge, Initialwert und Reihenfolge angeben!");
+  // geforderte Werte per scanf einlesen
+    
+    
+    
+  // Funktion aufrufen um Feld mit Initialwerten zu füllen
+    
+    
+    
+  if(reihenfolge == '-'){
+    // Funktionsaufruf: Feld von links nach rechts ausgeben
+    
+    
+  }
+  else {
+    // Funktionsaufruf: Feld von rechts nach links ausgeben
+    
+    
+  }
+    
+    
+  printf("= %d\n",FeldAddition(array, anz));
+  return 0;
+} 
+
+void FeldFuellen(short array[], short anz, int init)
+    // Alle Elemente bis anz werden initialisiert Angefangen mit init
+    // und dann jeweils um eins inkrementiert
+    // also: array[0] = init; array[1] = init+1 usw.
+    
+    
+    
+}
+    
+int FeldAddition(short array[], short anz){
+  int ergAdd = 0; // Ergebnis der Summe
+
+  // alle Elemente bis anz werden aus dem Feld array aufsummiert und in
+  // ergAdd gespeichert
+  // ergAdd ist zurückzugeben
+    
+    
+    
+}
+    
+void FeldAusgeben(short array[], short anz, char reihenfolge){
+    
+  // Die Elemente des Feldes array sollen nacheinander ausgegeben werden.
+  // In Abhängigkeit des dritten Parameters wird das Feld bei '+' von links
+  // nach rechts ausgegeben oder bei '-' andersherum.
+  // Die Anzahl der auszugebenen Elemente steht im zweiten Parameter.
+    
+    
+    
+}
+    
+ ```   
+</details>
+        
+__Programmerläuterung__:   
+Das Programm fordert drei Parameter an. Der Erste gibt die Anzahl der Felder an. Der Zweite gibt den Initialwert
+an und der Dritte gibt an, ob die Zahlenreihe aufsteigend (+) oder absteigend (‐) ausgegeben wird. Vgl. untere
+Abbildungen.
+        [Bil
+ __Hinweis:__ Fügen Sie Ihren Quellcode direkt in das obere Programm ein.   
+        
+**Ihre Aufgabe:** 
+        
+  a) Vervollständigen Sie die Funktion ```FeldFuellen```. Die Funktion füllt das Array ```array``` und beginnt
+      das erste Feld mit ```init```. Alle anderen Werte werden jeweils um eins inkrementiert.
+        
+  b) Vervollständigen Sie die Funktion ```FeldAddition```. Die Funktion summiert die ersten ```anz```‐Elemente des
+     Feldes auf und speichert diese ab. Anschließend wird die Summe zurückgeliefert.
+        
+  c) Vervollständigen Sie die Funktion ```FeldAusgeben```. Abhängig vom Übergabeparameter wird der Inhalt des 
+      Arrays aufsteigend (+) oder absteigend (‐) auf dem Bildschirm ausgegeben. (keine Modifikation des Arrays nötig).
+        
+  d) Schreiben sie in den oberen Quellcode die drei fehlenden Funktionsprototypen.
+        
+  e) Definieren Sie in ```main()``` das Feld mit dem Namen ```array```. Es soll vom Typ ```short``` sein und 10
+      Elemente beinhalten. Alle Elemente sind mit 0 vorzuinitialisieren.
+        
+  f) Lesen Sie im oberen Quellcode die drei Werte (Feldlänge, Initialwert und Reihenfolge) per ```scanf``` ein.
+        
+  g) Rufen Sie im oberen Quellcode an den vorgegebenen Stellen die geforderten Funktionen mit korrekten Parametern auf.
+
+        
+ </details>
