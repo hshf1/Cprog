@@ -204,7 +204,7 @@ in das Verzeichnis:
 
 Dort laden wir uns mit
 
-> git clone https://github.com/and1yps/VSCodeForC.git
+> git clone https://github.com/hshf1/vscodeforc.git
 
 die Konfiguration (fast) fix und fertig von Github herunter:
 
