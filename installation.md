@@ -169,7 +169,8 @@ Zunächst rechts-klicken wir ganz unten links auf das Windows-Icon und wählen i
 
 <img width="276" alt="image" src="https://user-images.githubusercontent.com/78163337/111452622-000e5600-8713-11eb-9c34-0cbfdfcc411c.png">
 
-
+<details> 
+<summary>Hier klicken um VSCode auf erprobte Weise zu installieren, die aber ein wenig mehr Arbeit macht. Eure Programme befinden sich am Ende in eurem Dokumente Ordner.</summary>
 In diese PowerShell kopieren wir am Stück folgende Zeile:
 
 > Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -210,6 +211,10 @@ die Konfiguration (fast) fix und fertig von Github herunter:
 
 Jetzt ist es endlich soweit und wir öffnen Visual Studio Code.
 
+
+  
+
+  
 Ein kleiner Hinweis vorab: 
   
 Irgendwann wird VSCode wahrscheinlich
@@ -251,6 +256,70 @@ Weiter unten sehen wir in der Mitte von vielen anderen, eher kryptisch anmutende
 
 Wer diese Ausgabe *nicht* erhält sollte sich an dieser Stelle der Troubleshooting-Sektion zuwenden. Solange ein Programm nicht abgearbeitet wird, wird auch das Folgende nicht funktionieren.
 
+</details>  
+  
+<details> 
+<summary>Hier klicken um VSCode auf die schnelle, ungetestete Art zu installieren. Hier könnt ihr auswählen, wo auf eurer Festplatte sich später eure C-Programme befinden.</summary>
+  
+In diese PowerShell kopieren wir am Stück folgende Zeile:
+
+> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+und bestätigen mit „Enter“ und warten ab, bis uns PowerShell einen frischen Eingabeprompt anbietet:
+
+<img width="163" alt="image" src="https://user-images.githubusercontent.com/78163337/111456918-d9065300-8717-11eb-93a9-88fddd8459ff.png">
+
+Damit wir uns sicher sein können, dass die Änderungen wirksam sind, schließen wir das PowerShell Fenster und öffnen ein neues (wieder mit Administrator-Rechten)
+Nun kopieren wir die folgende Zeile in die PowerShell, bestätigen mit Enter und warten wieder auf den Eingabeprompt. Hier passiert jetzt wirklich eine Menge und kann sich nach Internetverbindung und Rechner 20 - 30 Minuten hinziehen. Also bitte Geduld.
+
+choco install mingw --version=8.1.0 -y; choco install vscode vscode-cpptools vscode-code-runner vscode-gitlens vscode-icons vscode-live-share vscode-live-share-audio git cascadiafonts -y
+
+Jetzt kopiert ihr die Datei, installvscodeforc.exe in den Ordner, wo sich später euer Quellcode und eure Programme befinden sollen und führt sie aus, z. B. per Doppelklick. Dann lehnt ihr euch für ein, zwei Minütchen locker zurück.
+  
+Ein kleiner Hinweis vorab: 
+  
+Irgendwann wird VSCode wahrscheinlich
+  a) anbieten die Sprache zu wechseln (im Zweifelsfall auf die des Betriebssystems)
+  
+  und
+  
+  b) ein Update auf die Insiders-Version anbieten. 
+
+Zu a) Es ist natürlich Geschmacksache in welcher Sprache man seinen Editor haben möchte. Diese Anleitung bleibt bei Englisch. Ich empfehle daher dringend zumindest bis zum Ende dieses Tutorials die Sprache nicht zu ändern. Auch würde ich die Sprache nicht ändern, bevor der jeweilige Lehrende sagt, welche Sprache er oder sie benutzen wird. Ein gewichtiger Grund bei Englisch zu bleiben ist, dass es erfahrungsgemäß deutlich leichter ist einer Suchmaschine einen hilfreichen Treffer zu entlocken, wenn man eine englische Fehlermeldung eingibt.
+  
+Zu b) Davon am Insiders-Programm teilzunehmen wird abgeraten. Insiders bedeutet hier Beta-Tester und ein stabiler Betrieb ist wichtiger als die neuesten Features, die beim C-Programmieren kaum zum Tragen kommen werden.
+
+<img width="419" alt="image" src="https://user-images.githubusercontent.com/78163337/111457567-a446cb80-8718-11eb-9e1d-26213b51a86c.png">
+
+Die „richtige“ Antwort wäre also `<Nicht mehr anzeigen>`.
+
+In der Startansicht wählen wir „Open folder…“
+
+<img width="239" alt="image" src="https://user-images.githubusercontent.com/78163337/111457735-dce6a500-8718-11eb-8ad8-504a45538b74.png">
+
+Und wählen unter Dokumente\VSCodeForC\ den Ordner Projekte
+
+<img width="371" alt="image" src="https://user-images.githubusercontent.com/78163337/111457815-f7b91980-8718-11eb-8ec2-c96cdb9df8e1.png">
+
+Wir finden im Ordner Programmiersprache_C fertig vorbereitet die Datei HelloWorld.C
+
+<img width="421" alt="image" src="https://user-images.githubusercontent.com/78163337/111458047-44045980-8719-11eb-8bdf-54a3d9e8febd.png">
+
+Das Programm ist kurz und unspektakulär, aber ein echter Klassiker.
+
+Wir rechtsklicken in das Fenster mit unserem Code und wählen „Run Code“
+
+<img width="385" alt="image" src="https://user-images.githubusercontent.com/78163337/111458152-626a5500-8719-11eb-87fc-40ae6b391886.png">
+
+Weiter unten sehen wir in der Mitte von vielen anderen, eher kryptisch anmutenden Dingen, die Ausgabe unseres Programms, nämlich "hello world".
+
+<img width="283" alt="image" src="https://user-images.githubusercontent.com/78163337/111458210-77df7f00-8719-11eb-9e41-39180d41cfda.png">
+
+Wer diese Ausgabe *nicht* erhält sollte sich an dieser Stelle der Troubleshooting-Sektion zuwenden. Solange ein Programm nicht abgearbeitet wird, wird auch das Folgende nicht funktionieren.
+
+  
+</details>
+  
 ##### code-runner
 
 Damit unsere Programme später Input vom Terminal entgegennehmen können, z. B. mit scanf, müssen wir noch eine Einstellung vornehmen.
