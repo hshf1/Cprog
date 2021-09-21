@@ -170,7 +170,10 @@ Zunächst rechts-klicken wir ganz unten links auf das Windows-Icon und wählen i
 <img width="276" alt="image" src="https://user-images.githubusercontent.com/78163337/111452622-000e5600-8713-11eb-9c34-0cbfdfcc411c.png">
 
 <details> 
-<summary>Hier klicken um VSCode auf erprobte Weise zu installieren, die aber ein wenig mehr Arbeit macht. Eure Programme befinden sich am Ende in eurem Dokumente Ordner.</summary>
+
+### "Bewährte Installation"
+  
+  <summary>Hier klicken um VSCode auf erprobte Weise zu installieren, die aber ein wenig mehr Arbeit macht. Eure Programme befinden sich am Ende in eurem Dokumente Ordner.</summary>
 In diese PowerShell kopieren wir am Stück folgende Zeile:
 
 > Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -294,9 +297,10 @@ An dieser Stelle sind wir mit dem windows-spezifischen Teil der Installation und
   
 </details>  
   
- 
+### "Beta" Installation
+  
 <details> 
-<summary>Hier klicken um VSCode auf die schnelle, ungetestete Art zu installieren. Hier könnt ihr auswählen, wo auf eurer Festplatte sich später eure C-Programme befinden.</summary>
+<summary>Hier klicken um VSCode auf die schnelle, ungetestete Art zu installieren. Hier könnt ihr auswählen, wo auf eurer Festplatte sich später eure C-Programme befinden. Nur die Art der Installation ist neu, die installierten Programme sind identisch.</summary>
   
 In diese PowerShell kopieren wir am Stück folgende Zeile:
 
