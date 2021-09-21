@@ -169,9 +169,9 @@ Zunächst rechts-klicken wir ganz unten links auf das Windows-Icon und wählen i
 
 <img width="276" alt="image" src="https://user-images.githubusercontent.com/78163337/111452622-000e5600-8713-11eb-9c34-0cbfdfcc411c.png">
 
+### "Bewährte Installation"  
+  
 <details> 
-
-### "Bewährte Installation"
   
   <summary>Hier klicken um VSCode auf erprobte Weise zu installieren, die aber ein wenig mehr Arbeit macht. Eure Programme befinden sich am Ende in eurem Dokumente Ordner.</summary>
 In diese PowerShell kopieren wir am Stück folgende Zeile:
